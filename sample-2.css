@@ -1,0 +1,243 @@
+/* 
+.bottom-content {
+  position: fixed;
+  bottom: 0;
+  backdrop-filter: blur(20px);
+  left: 150px;
+  height: 170px;
+  width: 90%;
+}
+
+.button-container {
+  position: fixed;
+  right: 0;
+  justify-content: flex-end;
+  bottom: 0;
+  display: flex;
+} */
+/* 
+.left-button {
+  bottom: 0;
+  background: #ffffff7d;
+  width: 80px;
+  height: 170px;
+  transition: background-color 0.8s ease;
+}
+
+.left-button:hover {
+  background: #c3c3c37d;
+} */
+/* 
+.right-button {
+  bottom: 0;
+  background: #b4cdff;
+  width: 80px;
+  height: 170px;
+  transition: background-color 0.8s ease;
+}
+
+.right-button:hover {
+  background: #92a7d0;
+} */
+
+/* body {
+  } */
+/* .tim-background-row {
+  height: auto;
+  width: 500px;
+  background-size: cover;
+  background-position-y: 70%;
+}
+
+.background-overlay {
+  background-image: url(/images/tim.png);
+  background-image: linear-gradient(
+    to right top,
+    #d5dcea,
+    #cad3e3,
+    #bfc9dc,
+    #b5c0d5,
+    #aab7ce
+  );
+  height: 100vh;
+}
+
+.main-background {
+  background-image: url(/images/tim.png);
+  background-size: cover;
+  background-blend-mode: overlay;
+} */
+
+/*
+  nav.navbar.navbar-expand-lg.navbar-light {
+    left: 150px;
+  } */
+.body {
+  background-color: #1b1d1f;
+}
+
+.overlay-blur {
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0);
+  height: 400px;
+  z-index: -10;
+}
+
+.header-background {
+  background-image: url(images/jase-bloor-oCZHIa1D4EU-unsplash.jpg);
+  background-size: cover;
+  height: 400px;
+  z-index: -5;
+}
+
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+div#navbarNav {
+  padding-right: 0 !important;
+}
+
+.navbar,
+li,
+ul,
+a {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #aaa !important;
+  display: inline-block;
+  text-decoration: none !important;
+  padding-left: 30px;
+  float: right;
+  transition: font-weight 0.5s ease-in-out;
+}
+
+.navbar,
+li,
+ul,
+a:hover {
+  font-weight: 600;
+}
+
+a,
+.navbar:visited {
+  color: #050505;
+}
+
+.navbar-collapse {
+  padding-right: none !important;
+  padding-left: none !important;
+}
+
+.row {
+  padding-top: 25px;
+}
+
+.container {
+  margin-bottom: 5vw;
+}
+
+.title-header {
+  font-size: 35px;
+  font-family: "Vollkorn", serif;
+  display: inline-block;
+  font-weight: 700;
+  color: white;
+  float: left;
+}
+
+.title-header:hover {
+  color: #fc0d68;
+  color: linear-gradient(180deg, #35aad8 0%, #d88c35);
+  transition: all 0.5s ease-in-out;
+}
+
+.wrapper {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 4vw;
+  margin-bottom: 2vw;
+}
+
+.body {
+  background: rgb(124, 124, 124);
+}
+
+.img-container {
+  height: auto;
+  max-width: 100%;
+}
+
+.logo-holder {
+  position: relative;
+}
+.logo-holder .img-container,
+.logo-holder .img-text {
+  transition: opacity 0.5s ease-in-out;
+}
+.logo-holder .img-text {
+  position: absolute;
+  top: 4vw;
+  left: 4vw;
+  bottom: 4vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  right: 4vw;
+  opacity: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.logo-holder:hover .img-container {
+  opacity: 0;
+}
+.logo-holder:hover .img-text {
+  opacity: 1;
+}
+
+.loading-bar {
+  position: relative;
+  text-align: right;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  z-index: 50;
+  transition: opacity 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+._primary_bg {
+  /* background: rgb(245, 248, 255);
+  background: linear-gradient(
+    130deg,
+    rgba(245, 248, 255, 1) 0%,
+    rgba(233, 237, 246, 1) 100%
+  ); */
+  backdrop-filter: blur(30px);
+}
+
+.loading-bar > ._bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  height: 100%;
+  transition: background 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@media (max-width: 768px) {
+  .title-header {
+    font-size: 22px;
+    margin-top: 15px;
+    float: left;
+  }
+}
+
+/* font-family: 'Bree Serif', serif;
+font-family: 'IBM Plex Sans', sans-serif; 
+font-family: 'Vollkorn', serif;*/
