@@ -76,6 +76,10 @@
   background-color: #1b1d1f;
 }
 
+.navbar-nav {
+  float: none !important;
+}
+
 .overlay-blur {
   background-size: cover;
   backdrop-filter: blur(10px);
@@ -111,8 +115,8 @@ a {
   color: #aaa !important;
   display: inline-block;
   text-decoration: none !important;
-  padding-left: 30px;
-  float: right;
+  /* padding-left: 30px; */
+  /* float: right; */
   transition: font-weight 0.5s ease-in-out;
 }
 
@@ -141,13 +145,21 @@ a,
   margin-bottom: 5vw;
 }
 
+.navbar-nav {
+  padding: 0;
+}
+
+.navbar-nav li {
+  padding: 0px 25px;
+}
+
 .title-header {
-  font-size: 35px;
+  font-size: 64px;
+  margin-top: 70px;
   font-family: "Vollkorn", serif;
   display: inline-block;
   font-weight: 700;
   color: white;
-  float: left;
 }
 
 .title-header:hover {
